@@ -147,7 +147,7 @@ export default function Home() {
       <TopicsSection>
         <SectionTitle>مواضيع الرياضيات</SectionTitle>
         <Grid>
-          <TopicCard href="/topic/topic-math">
+          <TopicCard href="/topic/topic-algebra">
             <TopicIcon>✖️</TopicIcon>
             <TopicTitle>الجبر</TopicTitle>
             <TopicDescription>المعادلات، المتباينات، والدوال</TopicDescription>
@@ -157,12 +157,12 @@ export default function Home() {
             <TopicTitle>الهندسة</TopicTitle>
             <TopicDescription>الأشكال الهندسية، المساحات، والأحجام</TopicDescription>
           </TopicCard>
-          <TopicCard href="/math/calculus">
+          <TopicCard href="/topic/topic-calculus">
             <TopicIcon>∫</TopicIcon>
             <TopicTitle>التفاضل والتكامل</TopicTitle>
             <TopicDescription>النهايات، المشتقات، والتكاملات</TopicDescription>
           </TopicCard>
-          <TopicCard href="/math/statistics">
+          <TopicCard href="/topic/topic-statistics">
             <TopicIcon>📊</TopicIcon>
             <TopicTitle>الإحصاء والاحتمالات</TopicTitle>
             <TopicDescription>تحليل البيانات، المقاييس الإحصائية، ونظرية الاحتمالات</TopicDescription>

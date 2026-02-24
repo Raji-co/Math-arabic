@@ -276,3 +276,64 @@ a {
   border-color: rgba(59, 130, 246, 0.5);
   /* Highlight just the border softly */
 }
+
+/* ── SerloRenderer read-only view ───────────────────────────────── */
+.serlo-renderer-wrapper {
+  direction: rtl;
+  text-align: right;
+  font-size: 1.1rem;
+  line-height: 1.85;
+  color: #1a202c;
+}
+
+.serlo-renderer-wrapper h1,
+.serlo-renderer-wrapper h2,
+.serlo-renderer-wrapper h3 {
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #1a202c;
+}
+
+.serlo-renderer-wrapper h2 {
+  font-size: 1.4rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.4rem;
+}
+
+.serlo-renderer-wrapper h3 {
+  font-size: 1.2rem;
+  color: #007ec1;
+}
+
+.serlo-renderer-wrapper p {
+  margin-bottom: 1rem;
+}
+
+.serlo-renderer-wrapper ul,
+.serlo-renderer-wrapper ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.serlo-renderer-wrapper li {
+  margin-bottom: 0.35rem;
+}
+
+/* Keep math LTR */
+.serlo-renderer-wrapper .katex,
+.serlo-renderer-wrapper .katex-display,
+.serlo-renderer-wrapper .math-inline,
+.serlo-renderer-wrapper .math-block {
+  direction: ltr !important;
+  text-align: left !important;
+  display: inline-block;
+}
+
+.serlo-renderer-wrapper .katex-display {
+  display: block;
+  overflow-x: auto;
+  text-align: center !important;
+  margin: 1.25rem 0;
+}

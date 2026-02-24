@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import { signOut } from 'next-auth/react';
 import styled from 'styled-components';
 
 const NavHeader = styled.header`
@@ -64,19 +65,57 @@ const Button = styled(Link)`
 `;
 
 export default function Navbar() {
+  return (
+    <NavHeader>
+      <NavContainer>
+        <Logo href="/">
+          <span>Serlo</span>
+          <span style={{ color: 'var(--serlo-green)' }}>بالعربي</span>
+        </Logo>
+        <NavLinks>
+          <NavLink href="/">الرئيسية</NavLink>
+          <NavLink href="/topic/topic-math">الرياضيات</NavLink>
+          <NavLink href="/editor">أضف محتوى</NavLink>
+          <NavAuthButtons />
+        </NavLinks>
+      </NavContainer>
+    </NavHeader>
+  );
+}
+
+function NavAuthButtons() {
+  const [mounted, setMounted] = React.useState(false);
+  const [session, setSession] = React.useState<{ user?: { name?: string; role?: string } } | null>(null);
+
+  React.useEffect(() => {
+    setMounted(true);
+    fetch('/api/auth/session')
+      .then(r => r.json())
+      .then(data => setSession(data?.user ? data : null));
+  }, []);
+
+  if (!mounted) return null;
+
+  if (session?.user) {
+    const isAdmin = (session.user as { role?: string }).role === 'admin';
     return (
-        <NavHeader>
-            <NavContainer>
-                <Logo href="/">
-                    <span>Serlo</span>
-                    <span style={{ color: 'var(--serlo-green)' }}>بالعربي</span>
-                </Logo>
-                <NavLinks>
-                    <NavLink href="/">الرئيسية</NavLink>
-                    <NavLink href="/math">الرياضيات</NavLink>
-                    <Button href="/editor">أضف محتوى</Button>
-                </NavLinks>
-            </NavContainer>
-        </NavHeader>
+      <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
+        <Button href={isAdmin ? '/admin' : '/dashboard'}>
+          {isAdmin ? '⚙️ لوحة التحكم' : '📋 لوحتي'}
+        </Button>
+        <a
+          href="#"
+          style={{ color: '#666', fontSize: '0.9rem', fontWeight: '500', textDecoration: 'none' }}
+          onClick={async e => {
+            e.preventDefault();
+            await signOut({ callbackUrl: '/' });
+          }}
+        >
+          خروج
+        </a>
+      </div>
     );
+  }
+
+  return <Button href="/login">تسجيل الدخول</Button>;
 }

@@ -114,3 +114,30 @@ Argument `id` is missing.
   clientVersion: '5.22.0'
 }
  POST /api/articles 201 in 7ms
+ GET / 200 in 62ms
+ ✓ Compiled /favicon.ico in 56ms (389 modules)
+ GET /favicon.ico 200 in 89ms
+ GET / 200 in 71ms
+ GET /favicon.ico 200 in 3ms
+ GET / 200 in 29ms
+ GET /favicon.ico 200 in 5ms
+ ✓ Compiled /_not-found in 115ms (698 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/c4831008a84f6fe9.webpack.hot-update.json 404 in 111ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /math 404 in 17ms
+ GET /_next/static/webpack/c4831008a84f6fe9.webpack.hot-update.json 404 in 17ms
+ GET /editor 200 in 36ms
+ GET /editor 200 in 13ms
+ GET /favicon.ico 200 in 7ms
+ GET /favicon.ico 200 in 4ms
+ GET /math 404 in 20ms
+   Reload env: .env.local
+ ✓ Compiled in 80ms (698 modules)
+ ✓ Compiled in 241ms (383 modules)
+ ✓ Compiled in 46ms (383 modules)
+ ✓ Compiled in 107ms (663 modules)
+ ✓ Compiled in 97ms (357 modules)
+ ✓ Compiled in 80ms (663 modules)
+ ✓ Compiled in 105ms (663 modules)
+ ○ Compiling /admin/create-topic ...
