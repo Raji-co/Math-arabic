@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Serlo بالعربي
+
+An Arabic mathematics learning platform inspired by [Serlo.org](https://serlo.org), built with Next.js 14, Prisma, and the Serlo Editor.
+
+## Features
+
+- 📚 **3-level math hierarchy** — Math → Branches → Subtopics → Articles
+- ✏️ **Cascading article editor** — step-by-step wizard to select branch/topic before writing
+- 👤 **Auth system** — admin and contributor roles (NextAuth.js + bcrypt)
+- 🔐 **Admin panel** — manage content, contributors, and publishing
+- 📄 **Article reader** — full RTL rendering via SerloRenderer with breadcrumb navigation
+- 🌐 **Arabic RTL** — fully right-to-left interface
 
 ## Getting Started
 
-First, run the development server:
-
+### 1. Clone & install
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Raji-co/Math-arabic.git
+cd Math-arabic
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Set up environment
+```bash
+cp .env.example .env
+# Edit .env with your values
+# Generate a secret: openssl rand -base64 32
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Set up database
+```bash
+npx prisma migrate dev
+npx prisma db seed
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Run
+```bash
+npm run dev
+# → http://localhost:3000
+```
 
-## Learn More
+## Default Admin Account
+> ⚠️ Change this password immediately in production!
+- **Email:** `admin@serlo-ar.local`
+- **Password:** `admin123`
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
+- **Framework:** Next.js 14 (App Router)
+- **Database:** SQLite via Prisma (switch to PostgreSQL for production)
+- **Auth:** NextAuth.js with credentials provider
+- **Editor:** [@serlo/editor](https://www.npmjs.com/package/@serlo/editor)
+- **Styling:** Styled Components + Vanilla CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Production Deployment
+Switch `prisma/schema.prisma` datasource from `sqlite` to `postgresql` and update `DATABASE_URL` in your environment. Works with Coolify, Railway, or any Node.js host.
