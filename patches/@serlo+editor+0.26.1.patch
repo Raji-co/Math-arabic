@@ -1,0 +1,206 @@
+diff --git a/node_modules/@serlo/editor/dist/index-CEihI8lA.js b/node_modules/@serlo/editor/dist/index-CEihI8lA.js
+index b61bf8e..1845f94 100644
+--- a/node_modules/@serlo/editor/dist/index-CEihI8lA.js
++++ b/node_modules/@serlo/editor/dist/index-CEihI8lA.js
+@@ -73958,7 +73958,7 @@ const tBe = [
+       transformationOfTerms: "Termumformung",
+       addNewRow: "Neue Zeile hinzufügen",
+       explanation: "Erklärung",
+-      term: "Term",
++      term: "المصطلح",
+       rightHandSide: "rechte Seite",
+       combineLikeTerms: "Fasse die Terme zusammen.",
+       setEqual: "Setze die Terme gleich.",
+@@ -74374,7 +74374,7 @@ const tBe = [
+         remember: "Merke",
+         attention: "Vorsicht",
+         note: "Beachte",
+-        definition: "Definition",
++        definition: "تعريف",
+         theorem: "Satz",
+         proof: "Beweis"
+       }
+@@ -74399,7 +74399,7 @@ const tBe = [
+       solution: "Lösungsvorschlag",
+       showHiddenInteractive: "Hier deine Lösung prüfen",
+       feedback: {
+-        title: "Feedback",
++        title: "الملاحظات (Feedback)",
+         correct: "Richtig!",
+         missedSome: "Fast! Dir fehlt noch mindestens eine richtige Antwort.",
+         incorrect0: "Schade, leider noch nicht richtig.",
+@@ -74477,13 +74477,13 @@ const tBe = [
+       anchorId: "ID of the anchor"
+     },
+     box: {
+-      title: "Container",
++      title: "حاوية",
+       description: "Insert a container for examples, quotes, warnings, theorems, notes…",
+       type: "Type of box",
+       typeTooltip: "Choose the type of the box",
+-      titlePlaceholder: "(optional title)",
++      titlePlaceholder: "(عنوان اختياري)",
+       anchorId: "Anchor ID",
+-      emptyContentWarning: "Boxes without content will not be displayed"
++      emptyContentWarning: "لن يتم عرض المربعات بدون محتوى"
+     },
+     dropzoneImage: {
+       title: "Interactive Image (Dropzones)",
+@@ -74536,22 +74536,22 @@ const tBe = [
+       explanation: "It will not be displayed to users. You can either remove it or asks developers for support."
+     },
+     equations: {
+-      title: "Terms and equations",
++      title: "المصطلحات والمعادلات",
+       description: "Create term transformations and solve multi-line equations.",
+-      leftHandSide: "left-hand side",
+-      transformation: "transformation",
+-      mode: "Mode",
+-      transformationExample: "e.g. -3x",
+-      transformationOfEquations: "Transformation of equations",
+-      transformationOfTerms: "Transformation of terms",
+-      addNewRow: "Add new row",
+-      explanation: "Explanation",
+-      term: "Term",
+-      rightHandSide: "right-hand side",
+-      combineLikeTerms: "Combine like terms.",
+-      setEqual: "Set the terms equal to each other.",
+-      firstExplanation: "First explanation",
+-      removeRowLabel: "Remove row"
++      leftHandSide: "الطرف الأيسر",
++      transformation: "تحويل",
++      mode: "الوضع",
++      transformationExample: "مثال -3x",
++      transformationOfEquations: "تحويل المعادلات",
++      transformationOfTerms: "تحويل المصطلحات",
++      addNewRow: "إضافة صف جديد",
++      explanation: "الشرح",
++      term: "المصطلح",
++      rightHandSide: "الطرف الأيمن",
++      combineLikeTerms: "تجميع الحدود المتشابهة.",
++      setEqual: "مساواة الحدود ببعضها البعض.",
++      firstExplanation: "الشرح الأول",
++      removeRowLabel: "إزالة الصف"
+     },
+     geogebra: {
+       title: "GeoGebra Applet",
+@@ -74673,7 +74673,7 @@ const tBe = [
+     serloTable: {
+       title: "Table",
+       description: "Create a customizable table.",
+-      mode: "Mode",
++      mode: "الوضع",
+       columnHeaders: "Only column headers",
+       rowHeaders: "Only row headers",
+       columnAndRowHeaders: "Column and row headers",
+@@ -74698,9 +74698,9 @@ const tBe = [
+     text: {
+       title: "Text",
+       description: "Compose content using rich text and math formulas.",
+-      placeholder: "Write something...",
++      placeholder: "اكتب شيئاً...",
+       addButtonExplanation: "Click to insert new element",
+-      quote: "Quote",
++      quote: "اقتباس",
+       setColor: "Set color",
+       resetColor: "Reset color",
+       colors: "Colors",
+@@ -74728,7 +74728,7 @@ const tBe = [
+       lists: "Lists",
+       mathFormula: "Math formula (%ctrlOrCmd% + M)",
+       code: "Code (%ctrlOrCmd% + ⇧ + C)",
+-      blank: "Blank",
++      blank: "فارغ",
+       createBlank: "Create Blank",
+       removeBlank: "Remove Blank",
+       bold: "Bold (%ctrlOrCmd% + B)",
+@@ -74739,7 +74739,7 @@ const tBe = [
+         orange: "Orange"
+       },
+       math: {
+-        formula: "[formula]",
++        formula: "[صيغة]",
+         visual: "visual",
+         latex: "LaTeX",
+         latexEditorTitle: "LaTeX editor",
+@@ -74787,7 +74787,7 @@ const tBe = [
+       addOptionalInteractiveEx: "Add an optional interactive exercise:",
+       changeInteractive: "Change interactive element",
+       confirmRemoveInteractive: "Your current changes will be replaced. Are you sure?",
+-      createSolution: "Create proposed solution",
++      createSolution: "إنشاء حل مقترح",
+       removeSolution: "Remove proposed solution",
+       toLearnersView: "To Learners View",
+       toEditView: "To Edit View"
+@@ -74865,7 +74865,7 @@ const tBe = [
+     inputExercise: {
+       chooseType: "Choose the exercise type",
+       unit: "Unit",
+-      addAnswer: "Add answer",
++      addAnswer: "إضافة خيار",
+       enterTheValue: "Enter the value",
+       feedbackPlaceholder: "Add a feedback message for this answer",
+       yourSolution: "Your solution",
+@@ -74879,7 +74879,7 @@ const tBe = [
+       singleChoice: "Single-choice",
+       multipleChoice: "Multiple-choice",
+       chooseType: "Choose the exercise type",
+-      addAnswer: "Add answer"
++      addAnswer: "إضافة خيار"
+     },
+     solution: {
+       optionalExplanation: "Optionally explain the solution strategy here",
+@@ -74953,16 +74953,16 @@ const tBe = [
+     },
+     box: {
+       types: {
+-        blank: "Blank",
+-        example: "Example",
+-        quote: "Quote",
+-        approach: "Approach",
+-        remember: "Remember",
+-        attention: "Attention",
+-        note: "Note",
+-        definition: "Definition",
+-        theorem: "Theorem",
+-        proof: "Proof"
++        blank: "فارغ",
++        example: "مثال",
++        quote: "اقتباس",
++        approach: "طريقة",
++        remember: "تذكر",
++        attention: "انتباه",
++        note: "ملاحظة",
++        definition: "تعريف",
++        theorem: "نظرية",
++        proof: "إثبات"
+       }
+     },
+     course: {
+@@ -74975,18 +74975,18 @@ const tBe = [
+     exercise: {
+       title: "Exercise",
+       prerequisite: "For this task you need the following basic knowledge:",
+-      task: "Task",
+-      answer: "Answer",
+-      check: "Check",
+-      yourAnswer: "Your answer…",
++      task: "مهمة",
++      answer: "الجواب",
++      check: "تحقق",
++      yourAnswer: "إجابتك...",
+       chooseOption: "Click on one of the options.",
+       printModeChooseOption: "Check one of the options.",
+-      strategy: "Strategy",
+-      solution: "Proposed Solution",
++      strategy: "استراتيجية",
++      solution: "الحل المقترح",
+       showHiddenInteractive: "Check your solution here",
+       feedback: {
+-        title: "Feedback",
+-        correct: "Correct!",
++        title: "الملاحظات (Feedback)",
++        correct: "صحيح!",
+         missedSome: "Almost! You missed at least one correct answer.",
+         incorrect0: "Unfortunately, you're answer isn't quite right yet.",
+         incorrect1: "Try again.",

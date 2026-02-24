@@ -1,0 +1,116 @@
+
+> serlo-ar@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+ ⚠ Port 3001 is in use, trying 3002 instead.
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3002
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 2.3s
+(node:91536) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ○ Compiling /editor ...
+ ✓ Compiled /editor in 2.7s (712 modules)
+ GET /editor 200 in 2788ms
+ GET /editor 200 in 34ms
+ ✓ Compiled /favicon.ico in 114ms (357 modules)
+ GET /favicon.ico 200 in 149ms
+ ✓ Compiled in 407ms (703 modules)
+ GET /editor 200 in 61ms
+ GET /editor 200 in 22ms
+ GET /editor 200 in 13ms
+ ✓ Compiled / in 131ms (632 modules)
+ ✓ Compiled in 159ms (709 modules)
+ GET /editor 200 in 71ms
+ ✓ Compiled in 368ms (380 modules)
+ ✓ Compiled in 510ms (632 modules)
+ ✓ Compiled in 83ms (632 modules)
+ GET / 200 in 60ms
+ ✓ Compiled /topic/[id] in 177ms (660 modules)
+ ✓ Compiled /_not-found in 79ms (663 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/a021704826d33c5b.webpack.hot-update.json 404 in 143ms
+ GET / 200 in 22ms
+ ✓ Compiled /favicon.ico in 92ms (389 modules)
+ GET /favicon.ico 200 in 122ms
+ GET /topic/topic-math 200 in 55ms
+ GET /topic/topic-geometry 200 in 17ms
+ GET / 200 in 17ms
+ GET /topic/topic-geometry 200 in 17ms
+ GET /topic/topic-coordinate-system 200 in 22ms
+ ✓ Compiled /article/[id] in 177ms (668 modules)
+Error fetching article: PrismaClientValidationError: 
+Invalid `prisma.article.findUnique()` invocation:
+
+{
+  where: {
++   id: Int
+  }
+}
+
+Argument `id` is missing.
+    at wn (/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/node_modules/@prisma/client/runtime/library.js:29:1363)
+    at $n.handleRequestError (/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/node_modules/@prisma/client/runtime/library.js:121:6958)
+    at $n.handleAndLogRequestError (/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async getArticle (webpack-internal:///(rsc)/./src/app/article/[id]/page.tsx:21:25)
+    at async ArticlePage (webpack-internal:///(rsc)/./src/app/article/[id]/page.tsx:35:21) {
+  clientVersion: '5.22.0'
+}
+ ✓ Compiled /_not-found in 96ms (671 modules)
+ GET /math 404 in 41ms
+ GET /math/statistics 404 in 22ms
+ GET /math 404 in 19ms
+ GET /topic/topic-math 200 in 26ms
+ ✓ Compiled /favicon.ico in 47ms (389 modules)
+ GET /favicon.ico 200 in 77ms
+ ✓ Compiled in 79ms (357 modules)
+ ✓ Compiled in 203ms (663 modules)
+ ✓ Compiled in 92ms (663 modules)
+ GET /editor 200 in 70ms
+ ✓ Compiled /api/articles in 101ms (385 modules)
+ POST /api/articles 201 in 137ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/.next/cache/webpack/client-development/4.pack.gz_' -> '/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/.next/cache/webpack/client-development/4.pack.gz'
+ GET /topic/topic-math 200 in 51ms
+ GET /api/articles 405 in 5ms
+ GET /editor 200 in 29ms
+ POST /api/articles 201 in 6ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid code lengths set
+ GET /topic/topic-math 200 in 19ms
+ GET / 200 in 20ms
+ GET /editor 200 in 19ms
+ POST /api/articles 201 in 6ms
+ GET /editor 200 in 17ms
+ POST /api/articles 201 in 6ms
+ POST /api/articles 201 in 7ms
+ GET /topic/topic-math 200 in 16ms
+ GET /topic/topic-math 200 in 17ms
+ ✓ Compiled /favicon.ico in 112ms (414 modules)
+ GET /favicon.ico 200 in 151ms
+ GET /editor 200 in 55ms
+ POST /api/articles 201 in 11ms
+ ✓ Compiled /article/[id] in 111ms (391 modules)
+Error fetching article: PrismaClientValidationError: 
+Invalid `prisma.article.findUnique()` invocation:
+
+{
+  where: {
++   id: Int
+  }
+}
+
+Argument `id` is missing.
+    at wn (/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/node_modules/@prisma/client/runtime/library.js:29:1363)
+    at $n.handleRequestError (/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/node_modules/@prisma/client/runtime/library.js:121:6958)
+    at $n.handleAndLogRequestError (/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/Users/rajishalabi/Documents/2026/code Exp/serlo-ar/node_modules/@prisma/client/runtime/library.js:130:9633)
+    at async getArticle (webpack-internal:///(rsc)/./src/app/article/[id]/page.tsx:21:25)
+    at async ArticlePage (webpack-internal:///(rsc)/./src/app/article/[id]/page.tsx:35:21) {
+  clientVersion: '5.22.0'
+}
+ POST /api/articles 201 in 7ms

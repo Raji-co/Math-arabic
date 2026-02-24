@@ -1,0 +1,38 @@
+{
+  "name": "serlo-ar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "@serlo/editor": "^0.26.1",
+    "katex": "^0.16.33",
+    "lucide-react": "^0.575.0",
+    "next": "^14.2.35",
+    "prisma": "^5.22.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.3.11"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.8",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/styled-components": "^5.1.36",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "patch-package": "^8.0.1",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
+  }
+}

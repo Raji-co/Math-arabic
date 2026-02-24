@@ -1,0 +1,411 @@
+{
+  "nodes": [
+    {
+      "id": "topic-math",
+      "type": "topic",
+      "title": "الرياضيات",
+      "description": "مادة الرياضيات الأساسية"
+    },
+    {
+      "id": "topic-geometry",
+      "type": "topic",
+      "title": "الهندسة",
+      "description": "مفاهيم الأشكال والهندسة والفضاء"
+    },
+    {
+      "id": "topic-coordinate-system",
+      "type": "topic",
+      "title": "نظام الإحداثيات",
+      "description": "تعلم كل شيء عن المستوى الإحداثي الديكارتي ثنائي الأبعاد."
+    },
+    {
+      "id": "art-coord-sys",
+      "type": "article",
+      "title": "نظام الإحداثيات"
+    },
+    {
+      "id": "art-cartesian",
+      "type": "article",
+      "title": "نظام الإحداثيات الديكارتي ثنائي الأبعاد"
+    },
+    {
+      "id": "art-draw-3d",
+      "type": "article",
+      "title": "الرسم في نظام الإحداثيات ثلاثي الأبعاد"
+    },
+    {
+      "id": "art-lengths",
+      "type": "article",
+      "title": "الأطوال في نظام الإحداثيات"
+    },
+    {
+      "id": "art-abscissa",
+      "type": "article",
+      "title": "الإحداثي السيني والصادي"
+    },
+    {
+      "id": "art-quadrants",
+      "type": "article",
+      "title": "الأرباع في نظام الإحداثيات"
+    },
+    {
+      "id": "vid-quadrants",
+      "type": "video",
+      "title": "الأرباع",
+      "url": "https://www.youtube.com/watch?v=mock"
+    },
+    {
+      "id": "applet-read-point",
+      "type": "applet",
+      "title": "قراءة نقطة في نظام الإحداثيات",
+      "url": "https://geogebra.org/mock"
+    },
+    {
+      "id": "exc-coord-tasks",
+      "type": "exercise",
+      "title": "تمارين على نظام الإحداثيات"
+    },
+    {
+      "id": "exc-word-problems",
+      "type": "exercise",
+      "title": "مسائل كلامية على نظام الإحداثيات"
+    },
+    {
+      "id": "exc-calc-lengths",
+      "type": "exercise",
+      "title": "تمارين لحساب الأطوال في نظام الإحداثيات"
+    },
+    {
+      "id": "art-1771961792259",
+      "type": "article",
+      "title": "درس جديد",
+      "content": {
+        "type": "https://serlo.org/editor",
+        "variant": "serlo-org",
+        "version": 2,
+        "dateModified": "2026-02-24T19:36:06.682Z",
+        "document": {
+          "plugin": "rows",
+          "state": [
+            {
+              "plugin": "text",
+              "state": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "ابدأ بكتابة الدرس هنا..."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "editorVersion": "0.26.1",
+        "id": "b35c4f93-1ed5-46f6-93dc-447ce7c81405",
+        "domainOrigin": "http://localhost:3002"
+      }
+    },
+    {
+      "id": "art-1771961838989",
+      "type": "article",
+      "title": "Intro to Algebra",
+      "content": {
+        "type": "https://serlo.org/editor",
+        "variant": "serlo-org",
+        "version": 2,
+        "dateModified": "2026-02-24T19:37:03.686Z",
+        "document": {
+          "plugin": "rows",
+          "state": [
+            {
+              "plugin": "text",
+              "state": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "ابدأ بكتابة الدرس هنا..."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "editorVersion": "0.26.1",
+        "id": "ea93564c-1064-4992-980d-13352473ebbf",
+        "domainOrigin": "http://localhost:3002"
+      }
+    },
+    {
+      "id": "art-1771961928490",
+      "type": "article",
+      "title": "مقدمة في الجبر",
+      "content": {
+        "type": "https://serlo.org/editor",
+        "variant": "serlo-org",
+        "version": 2,
+        "dateModified": "2026-02-24T19:38:13.733Z",
+        "document": {
+          "plugin": "rows",
+          "state": [
+            {
+              "plugin": "text",
+              "state": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "ابدأ بكتابة الدرس هنا..."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "editorVersion": "0.26.1",
+        "id": "88c7b292-2a8b-4037-a885-dadb612063bd",
+        "domainOrigin": "http://localhost:3002"
+      }
+    },
+    {
+      "id": "art-1771961955165",
+      "type": "article",
+      "title": "مقدمة في الجبر",
+      "content": {
+        "type": "https://serlo.org/editor",
+        "variant": "serlo-org",
+        "version": 2,
+        "dateModified": "2026-02-24T19:39:05.518Z",
+        "document": {
+          "plugin": "rows",
+          "state": [
+            {
+              "plugin": "text",
+              "state": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "ابدأ بكتابة الدرس هنا..."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "editorVersion": "0.26.1",
+        "id": "c2e340e7-e047-4917-aa61-aa46d000c4be",
+        "domainOrigin": "http://localhost:3002"
+      }
+    },
+    {
+      "id": "art-1771961993404",
+      "type": "article",
+      "title": "مقدمة في الجبر",
+      "content": {
+        "type": "https://serlo.org/editor",
+        "variant": "serlo-org",
+        "version": 2,
+        "dateModified": "2026-02-24T19:39:05.518Z",
+        "document": {
+          "plugin": "rows",
+          "state": [
+            {
+              "plugin": "text",
+              "state": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "ابدأ بكتابة الدرس هنا..."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "editorVersion": "0.26.1",
+        "id": "c2e340e7-e047-4917-aa61-aa46d000c4be",
+        "domainOrigin": "http://localhost:3002"
+      }
+    },
+    {
+      "id": "art-1771962071171",
+      "type": "article",
+      "title": "Algebra Intro",
+      "content": {
+        "type": "https://serlo.org/editor",
+        "variant": "serlo-org",
+        "version": 2,
+        "dateModified": "2026-02-24T19:40:59.963Z",
+        "document": {
+          "plugin": "rows",
+          "state": [
+            {
+              "plugin": "text",
+              "state": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "ابدأ بكتابة الدرس هنا..."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "editorVersion": "0.26.1",
+        "id": "fc607fc2-decc-4291-bcf7-4314f6289811",
+        "domainOrigin": "http://localhost:3002"
+      }
+    },
+    {
+      "id": "art-1771962123151",
+      "type": "article",
+      "title": "درس جديد",
+      "content": {
+        "type": "https://serlo.org/editor",
+        "variant": "serlo-org",
+        "version": 2,
+        "dateModified": "2026-02-24T19:41:57.036Z",
+        "document": {
+          "plugin": "rows",
+          "state": [
+            {
+              "plugin": "text",
+              "state": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "ابدأ بكتابة الدرس هنا..."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "editorVersion": "0.26.1",
+        "id": "c7d6bf81-0d4d-4d64-aed4-be64e820cf01",
+        "domainOrigin": "http://localhost:3002"
+      }
+    }
+  ],
+  "links": [
+    {
+      "parentId": "topic-math",
+      "childId": "topic-geometry"
+    },
+    {
+      "parentId": "topic-geometry",
+      "childId": "topic-coordinate-system"
+    },
+    {
+      "parentId": "topic-coordinate-system",
+      "childId": "art-coord-sys"
+    },
+    {
+      "parentId": "topic-coordinate-system",
+      "childId": "art-cartesian"
+    },
+    {
+      "parentId": "topic-coordinate-system",
+      "childId": "art-draw-3d"
+    },
+    {
+      "parentId": "topic-coordinate-system",
+      "childId": "art-lengths"
+    },
+    {
+      "parentId": "topic-coordinate-system",
+      "childId": "art-abscissa"
+    },
+    {
+      "parentId": "topic-coordinate-system",
+      "childId": "art-quadrants"
+    },
+    {
+      "parentId": "topic-coordinate-system",
+      "childId": "vid-quadrants"
+    },
+    {
+      "parentId": "topic-coordinate-system",
+      "childId": "applet-read-point"
+    },
+    {
+      "parentId": "topic-coordinate-system",
+      "childId": "exc-coord-tasks"
+    },
+    {
+      "parentId": "topic-coordinate-system",
+      "childId": "exc-word-problems"
+    },
+    {
+      "parentId": "topic-coordinate-system",
+      "childId": "exc-calc-lengths"
+    },
+    {
+      "parentId": "topic-math",
+      "childId": "art-1771961792259"
+    },
+    {
+      "parentId": "topic-math",
+      "childId": "art-1771961838989"
+    },
+    {
+      "parentId": "topic-math",
+      "childId": "art-1771961928490"
+    },
+    {
+      "parentId": "topic-math",
+      "childId": "art-1771961955165"
+    },
+    {
+      "parentId": "topic-math",
+      "childId": "art-1771961993404"
+    },
+    {
+      "parentId": "topic-math",
+      "childId": "art-1771962071171"
+    },
+    {
+      "parentId": "topic-math",
+      "childId": "art-1771962123151"
+    }
+  ],
+  "tags": [
+    {
+      "nodeId": "topic-coordinate-system",
+      "country": "SA",
+      "grade": 4,
+      "subject": "Math"
+    },
+    {
+      "nodeId": "art-coord-sys",
+      "country": "SA",
+      "grade": 4,
+      "subject": "Math"
+    },
+    {
+      "nodeId": "topic-coordinate-system",
+      "country": "JO",
+      "grade": 3,
+      "subject": "Math"
+    },
+    {
+      "nodeId": "art-coord-sys",
+      "country": "JO",
+      "grade": 3,
+      "subject": "Math"
+    }
+  ]
+}
